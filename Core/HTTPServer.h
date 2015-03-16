@@ -53,6 +53,11 @@
 }
 
 /**
+ * Expose all websockets so the App can cycle through it
+ */
+- (NSArray*)allWebSockets;
+
+/**
  * Specifies the document root to serve files from.
  * For example, if you set this to "/Users/<your_username>/Sites",
  * then it will serve files out of the local Sites directory (including subdirectories).

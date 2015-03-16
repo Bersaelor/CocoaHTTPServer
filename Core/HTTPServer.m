@@ -28,6 +28,10 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 
 @implementation HTTPServer
 
+- (NSArray*)allWebSockets {
+    return webSockets;
+}
+
 /**
  * Standard Constructor.
  * Instantiates an HTTP server, but does not start it.
